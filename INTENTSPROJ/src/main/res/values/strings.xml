@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IntentsProj</string>
+    <string name="calculator">CALCULATOR</string>
 </resources>

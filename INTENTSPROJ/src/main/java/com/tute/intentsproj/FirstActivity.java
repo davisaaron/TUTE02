@@ -40,15 +40,15 @@ public class FirstActivity extends AppCompatActivity {
                 toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
                 toast.show();
 
-                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                Intent intent1 = new Intent(FirstActivity.this,SecondActivity.class);
                 num1 = et1.getText().toString();
                 num2 = et2.getText().toString();
 
 
-                intent.putExtra("Value",num1);
-                intent.putExtra("Value1",num2);
+                intent1.putExtra("Value",num1);
+                intent1.putExtra("Value1",num2);
 
-                startActivity(intent);
+                startActivity(intent1);
                 finish();
 
             }
